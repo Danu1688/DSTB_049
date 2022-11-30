@@ -12,7 +12,7 @@ proxies:
     path: /trojan
     headers:
       Host: do-gayeng.potatonc.my.id
-- name: AKRAB_6
+- name: AKRAB_TERONG
   type: trojan
   server: kno2fy.com
   port: 443
