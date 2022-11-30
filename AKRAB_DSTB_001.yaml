@@ -9,7 +9,7 @@ proxies:
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /terong
+    path: /trojan
     headers:
       Host: do-gayeng.potatonc.my.id
 - name: AKRAB_6
