@@ -1,0 +1,27 @@
+proxies:
+- name: AKRAB_GAYENG_01
+  type: trojan
+  server: kno2fy.com
+  port: 443
+  password: aba099a6-3f2b-48ce-ac00-b53f0e103c9b
+  udp: true
+  sni: do-gayeng.potatonc.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /terong
+    headers:
+      Host: do-gayeng.potatonc.my.id
+- name: AKRAB_6
+  type: trojan
+  server: kno2fy.com
+  port: 443
+  password: f3478f17-80b2-4ec2-aa30-50bc839f43bb
+  udp: true
+  sni: b19f.vpsxc.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /terong
+    headers:
+      Host: b19f.vpsxc.my.id
