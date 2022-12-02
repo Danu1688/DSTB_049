@@ -1,7 +1,7 @@
 proxies:
 - name: AKRAB_GAYENG_01
   type: trojan
-  server: cdn.onlymega.com
+  server: support.zoom.us
   port: 443
   password: aba099a6-3f2b-48ce-ac00-b53f0e103c9b
   udp: true
