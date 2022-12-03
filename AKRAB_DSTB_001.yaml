@@ -5,13 +5,13 @@ proxies:
   port: 443
   password: aba099a6-3f2b-48ce-ac00-b53f0e103c9b
   udp: true
-  sni: fn-id4.funny.my.id
+  sni: do-gayeng.potatonc.my.id
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /trojanws
+    path: /trojan
     headers:
-      Host: fn-id4.funny.my.id
+      Host: do-gayeng.potatonc.my.id
 - name: AKRAB_TERONG
   type: trojan
   server: support.zoom.us
