@@ -55,7 +55,7 @@ proxies:
   udp: true
   sni: teams.live.com
   skip-cert-verify: true
-- name: danugayeng03
+- name: danugayeng01
   type: trojan
   server: chat.sociomile.com
   port: 443
