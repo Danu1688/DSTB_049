@@ -31,7 +31,7 @@ proxies:
   port: 443
   password: 2d0c0e9e-1bc7-473c-8943-3408cfb0f8cb
   udp: true
-  sni: teams.live.com
+  sni: 104.17.2.81
   skip-cert-verify: true
   network: grpc
   grpc-opts:
@@ -53,5 +53,5 @@ proxies:
   port: 443
   password: f85f8b68-2b62-42c9-81cb-c353cb902301
   udp: true
-  sni: teams.live.com
+  sni: 104.17.2.81
   skip-cert-verify: true
