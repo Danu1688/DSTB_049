@@ -1,4 +1,17 @@
 proxies:
+- name: danuWs01
+  type: trojan
+  server: 172.67.199.34
+  port: 443
+  password: aac6f2f6-7f6a-4dd9-a014-8c55f9bf3b61
+  udp: true
+  sni: sg-ctn.sshpremium.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojanws"
+    headers:
+      Host: sg-ctn.sshpremium.my.id
 - name: danuWs01-IP34
   type: trojan
   server: 172.67.199.34
@@ -64,9 +77,9 @@ proxies:
     path: "/trojanws"
     headers:
       Host: marketplacecontent-cf.zoom.us
-- name: danuWs01
+- name: danuWs01-Identrust
   type: trojan
-  server: 172.67.199.34
+  server: crl.identrust.com
   port: 443
   password: aac6f2f6-7f6a-4dd9-a014-8c55f9bf3b61
   udp: true
@@ -77,4 +90,16 @@ proxies:
     path: "/trojanws"
     headers:
       Host: sg-ctn.sshpremium.my.id
-
+- name: danuWs01-Midtrans
+  type: trojan
+  server: midtrans.com
+  port: 443
+  password: aac6f2f6-7f6a-4dd9-a014-8c55f9bf3b61
+  udp: true
+  sni: sg-ctn.sshpremium.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojanws"
+    headers:
+      Host: sg-ctn.sshpremium.my.id
