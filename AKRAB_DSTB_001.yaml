@@ -1,3 +1,4 @@
+proxies:
 - name: danuWs01-IP34
   type: trojan
   server: 172.67.199.34
