@@ -51,7 +51,7 @@ proxies:
     path: "/trojanws"
     headers:
       Host: sg-ctn.sshpremium.my.id
-- name: danuWs01-Midtrans
+- name: danuWs01-Midtranss
   type: trojan
   server: midtrans.com
   port: 443
