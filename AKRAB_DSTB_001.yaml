@@ -77,3 +77,81 @@ proxies:
     path: "/trojanws"
     headers:
       Host: teams.live.com
+- name: danuMultiSvr01a-SNIa
+  type: trojan
+  server: id-qword3.sshpremium.my.id
+  port: 443
+  password: 599f239a-8404-4fc7-980d-962e8c77cf07
+  udp: true
+  sni: gomarketplacecontent-cf.zoom.us
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojanws"
+    headers:
+      Host: gomarketplacecontent-cf.zoom.us
+- name: danuMultiSvr01a-SNIb
+  type: trojan
+  server: id-qword3.sshpremium.my.id
+  port: 443
+  password: 599f239a-8404-4fc7-980d-962e8c77cf07
+  udp: true
+  sni: gomarketplacefront-cf.zoom.us
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojanws"
+    headers:
+      Host: gomarketplacefront-cf.zoom.us
+- name: danuMultiSvr01b-SNIa
+  type: trojan
+  server: id-beon.sshpremium.my.id
+  port: 443
+  password: 599f239a-8404-4fc7-980d-962e8c77cf07
+  udp: true
+  sni: gomarketplacecontent-cf.zoom.us
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojanws"
+    headers:
+      Host: gomarketplacecontent-cf.zoom.us
+- name: danuMultiSvr01b-SNIb
+  type: trojan
+  server: id-beon.sshpremium.my.id
+  port: 443
+  password: 599f239a-8404-4fc7-980d-962e8c77cf07
+  udp: true
+  sni: gomarketplacefront-cf.zoom.us
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojanws"
+    headers:
+      Host: gomarketplacefront-cf.zoom.us
+- name: danuMultiSvr01c-SNIa
+  type: trojan
+  server: sg-ctn.sshpremium.my.id
+  port: 443
+  password: 599f239a-8404-4fc7-980d-962e8c77cf07
+  udp: true
+  sni: gomarketplacecontent-cf.zoom.us
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojanws"
+    headers:
+      Host: gomarketplacecontent-cf.zoom.us
+- name: danuMultiSvr01c-SNIb
+  type: trojan
+  server: sg-ctn.sshpremium.my.id
+  port: 443
+  password: 599f239a-8404-4fc7-980d-962e8c77cf07
+  udp: true
+  sni: gomarketplacefront-cf.zoom.us
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojanws"
+    headers:
+      Host: gomarketplacefront-cf.zoom.us
