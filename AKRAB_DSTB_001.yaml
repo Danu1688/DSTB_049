@@ -1,5 +1,5 @@
 proxies:
-- name: TRJ_226
+- name: danuWs01_226
   type: trojan
   server: 104.18.20.226
   port: 443
