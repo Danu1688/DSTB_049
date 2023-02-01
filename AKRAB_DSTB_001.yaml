@@ -1,9 +1,9 @@
 proxies:
 - name: danuterong01aBizz
   type: trojan
-  server: cdnodeb.visionplus.id
+  server: 104.21.235.171
   port: 443
-  password: 2ebc0041-61a5-4d66-83b4-7d944b21e704
+  password: caa5cb36-46e2-436d-b441-a0fc00051a15
   udp: true
   sni: trojanws-biz2.vpsme.my.id
   skip-cert-verify: true
