@@ -1,5 +1,5 @@
 proxies:
-- name: danuterong01a
+- name: danuterong01aA
   type: trojan
   server: cdnodeb.visionplus.id
   port: 443
@@ -12,6 +12,32 @@ proxies:
     path: /sweetws
     headers:
       Host: trojanws-dtc1.vpsme.my.id
+- name: danuterong01aB
+  type: trojan
+  server: stream.visionplus.id
+  port: 443
+  password: 2ebc0041-61a5-4d66-83b4-7d944b21e704
+  udp: true
+  sni: trojanws-dtc1.vpsme.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /sweetws
+    headers:
+      Host: trojanws-dtc1.vpsme.my.id
+- name: danuterong01aC
+  type: trojan
+  server: trojanws-dtc1.vpsme.my.id
+  port: 443
+  password: 2ebc0041-61a5-4d66-83b4-7d944b21e704
+  udp: true
+  sni: trojanws-dtc1.vpsme.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /sweetws
+    headers:
+      Host: stream.visionplus.id
 - name: danuWs12-Vision+A
   type: trojan
   server: 104.21.235.171
