@@ -40,19 +40,6 @@ proxies:
       Host: trojanws-biz2.vpsme.my.id
 - name: DanuJuragan01_BizzNet_D
   type: trojan
-  server: cdnodeb.visionplus.id
-  port: 443
-  password: d0605b28-cc8c-41df-9c89-b18ffdd0006c
-  udp: true
-  sni: trojanws-biz2.vpsme.my.id
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /sweetws
-    headers:
-      Host: trojanws-biz2.vpsme.my.id
-- name: DanuJuragan01_BizzNet_E
-  type: trojan
   server: api.visionplus.id
   port: 443
   password: d0605b28-cc8c-41df-9c89-b18ffdd0006c
@@ -104,19 +91,6 @@ proxies:
     headers:
       Host: trojanws-melbi1.vpsme.my.id
 - name: DanuJuragan02_Melbi_D
-  type: trojan
-  server: cdnodeb.visionplus.id
-  port: 443
-  password: b375334f-3b57-4804-bcd1-bb24be571293
-  udp: true
-  sni: trojanws-melbi1.vpsme.my.id
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /sweetws
-    headers:
-      Host: trojanws-melbi1.vpsme.my.id
-- name: DanuJuragan02_Melbi_E
   type: trojan
   server: api.visionplus.id
   port: 443
